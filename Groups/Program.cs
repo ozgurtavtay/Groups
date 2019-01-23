@@ -11,8 +11,7 @@ namespace Groups
     {
 
         static void Main(string[] args)
-        {
-
+        {            
             List<string> group1 = new List<string>();
             List<string> group2 = new List<string>();
             List<string> group3 = new List<string>();
@@ -31,7 +30,7 @@ namespace Groups
                 persons.Add(Console.ReadLine().ToString());
             }
 
-            persons.ForEach(i => Console.Write("{0}\t", i));
+            //persons.ForEach(i => Console.Write("{0}\t", i));
 
             n = persons.Capacity;
 
